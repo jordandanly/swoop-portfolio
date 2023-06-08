@@ -1,11 +1,23 @@
 /* Your Styles */
 
 /* diagnostic styling. remove when done */
-* {
+/* * {
     outline: 1px dotted gray;
-}
+} */
 
 /* Layout with css grid */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+/* Style Tile with CSS Variables */
+:root {
+    --color1: #891024;
+    --color2: #848484;
+    --color3: #ffffff;
+    --font1: 'Fredoka', cursive;
+
+}
+
 body {
     display: grid;
 }
@@ -20,17 +32,34 @@ main {
 }
 
 figure {
- margin: 0;
+ margin: 30px;
  /* set your width */
- width: 33%;
+ width: 300px;
 }
   
 /* Backdrop for modal overlay */
 ::backdrop {
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(160, 8, 3, 0.753);
+    
 }
 
 /* Animation */
 dialog {
-    animation: fadeIn 1s;
+    animation: tada 1s;
+    border: none;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-family: 'Fredoka', cursive;
+    font-size: 3em;
+    color:var(--color1);
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Fredoka', cursive;
+    font-size: 1.5em;
+    color:var(--color2)
+    text-align: center;
 }
