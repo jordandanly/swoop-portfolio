@@ -11,3 +11,6 @@ Starter (boilerplate) for all future projects.
 * Don't with blank files
 * Common boilerplate for web projects
 * I am a human being who makes mistakes
+
+## Citations
+*[Favicon Generator](https://favicon.io/)
